@@ -51,6 +51,9 @@ CrossRefFollowFromMainSettings=1
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=3
+
 [Document1]
 DocumentPath=Bluetooth_Sentinel.Annotation
 AnnotationEnabled=1
@@ -378,37 +381,47 @@ GenerateClassCluster=0
 Name=Documentation
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=D1C6A372-CC70-4B1F-A6D2-587C1B45F446
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Documentation.OutJob
-ContentTypeGUID=
-ConfigurationType=
+ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
+ConfigurationType=Custom
 
 [Configuration2]
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=259E2E1E-1F5B-4D61-8D4A-7DE33125AF91
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
-ContentTypeGUID=
-ConfigurationType=
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Configuration3]
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=D25A42D0-CB0D-49C8-AF7C-15D1756CB521
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Fabrication.OutJob
-ContentTypeGUID=
-ConfigurationType=
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration4]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=1145EA28-4B61-470A-84CC-A788D8A73021
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
 
 [Generic_EDE]
 OutputDir=
